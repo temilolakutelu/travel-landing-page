@@ -116,6 +116,10 @@ nav li.nav-item {
 
 /* trip */
 
+#trip {
+    margin-top: -100px!important;
+}
+
 #trip h5,
 #top h5 {
     font-family: Lato;
@@ -488,14 +492,13 @@ footer .footer-content ul li a {
     }
     .navbar-nav {
         position: absolute;
-        background: #000000d9;
+        background: #000000e6;
         right: 0;
-        width: 45%;
+        width: 100%;
         padding: 15px;
     }
     nav li.nav-item {
         margin: 0;
-        border-bottom: 1px solid #ffffff;
     }
     .banner {
         margin-top: 45px;
