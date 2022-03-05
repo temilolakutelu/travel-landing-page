@@ -1,0 +1,603 @@
+body {
+    font-family: Lato;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 875px;
+}
+
+section.container {
+    margin-top: 100px;
+}
+
+nav.navbar {
+    padding-top: 89px;
+    padding-bottom: 150px
+}
+
+nav li.nav-item {
+    margin-right: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;
+}
+
+.banner p {
+    color: #fff;
+}
+
+.banner input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    width: 75%
+}
+
+.banner button {
+    background: #1B7DFF;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0 40px;
+}
+
+#banner-box h3 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 54%;
+}
+
+#banner-box p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+#search-box p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/* benefits */
+
+#benefits {
+    background: #FFF;
+    width: 90%;
+    margin: 90px auto 0 auto;
+    position: relative;
+    top: -250px;
+}
+
+#benefits h5 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+    margin-bottom: 105px;
+}
+
+#benefits .sub-title {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#benefits .text {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.bottom-text {
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #006DFE;
+}
+
+
+/* trip */
+
+#trip h5,
+#top h5 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    color: #102746;
+    margin-bottom: 0;
+}
+
+#trip a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin: auto 0;
+    text-align: right;
+    color: #006DFE;
+}
+
+#trip hr,
+#top hr {
+    border-top: 3px solid #006DFE;
+    margin: 5px 0;
+    width: 252.16px;
+}
+
+#trip .img-box,
+#trip .img-box2 {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+#trip .img-box2:after {
+    content: "";
+    background: -webkit-linear-gradient(rgba(21, 24, 36, 0.4), rgba(21, 24, 36, 0.4));
+    background: linear-gradient(rgba(21, 24, 36, 0.4), rgba(21, 24, 36, 0.4));
+    background-size: cover;
+    position: absolute;
+    display: block;
+    width: 97%;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+#trip .img-box img {
+    height: 354px;
+    object-fit: cover;
+    /* background: rgba(21, 24, 36);
+    opacity: 0.4; */
+}
+
+#trip .img-box2 img {
+    height: 283px;
+    object-fit: cover;
+    /* background: rgba(21, 24, 36);
+    opacity: 0.4; */
+}
+
+#trip .img-box h4,
+#trip .img-box2 h4 {
+    position: absolute;
+    bottom: 25px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    left: 5%;
+    z-index: 1000;
+}
+
+
+/* features */
+
+.features {
+    margin-top: 90px;
+}
+
+.features img.feature-img {
+    height: 354px
+}
+
+.features h6 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+    text-shadow: 2px 3px 4px rgb(16 39 70 / 30%);
+}
+
+.features p.text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px;
+    color: #102746;
+    text-shadow: 1px 3px 6px rgb(16 39 70 / 30%);
+}
+
+.feature-text {
+    margin: 30px 0;
+}
+
+
+/* top */
+
+#top .card .card-header {
+    position: relative;
+}
+
+#top .card .card-header .stats {
+    background: rgba(21, 24, 36, 0.6);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+#top .card .card-header .stats p {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 20px;
+}
+
+#top .card .card-header .stats img {
+    margin-top: -4px;
+}
+
+#top .card p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+
+#top .card button {
+    background: #006DFE;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 15px;
+}
+
+
+/* video */
+
+#video {
+    margin-top: 90px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(21, 24, 36, 0.4), rgba(21, 24, 36, 0.4)), url(images/object.png);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 430px;
+    text-align: center;
+}
+
+#video img {
+    width: 80px;
+    margin: 17% auto;
+}
+
+footer {
+    background: #0E1D28;
+    margin-top: -1px;
+}
+
+footer .footer-content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+footer .footer-content h6 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;
+}
+
+footer .footer-content ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer .footer-content ul li a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #FFFFFF;
+}
+
+
+/* responsive styling */
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 750px;
+    }
+    nav.navbar {
+        padding-top: 50px;
+    }
+    #banner-box h3 {
+        font-size: 40px;
+        line-height: 45px;
+        width: 65%;
+    }
+    #banner-box p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 60%;
+    }
+    #search-box p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .banner input {
+        width: 95%;
+    }
+    .banner button {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0 30px;
+    }
+    #benefits {
+        padding: 0!important;
+        top: -220px;
+    }
+    #benefits h5 {
+        margin-bottom: 80px;
+        font-size: 25px;
+    }
+    #benefits img.icon {
+        height: 45px;
+    }
+    #benefits .sub-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #benefits .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bottom-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #trip h5,
+    #top h5 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #trip a {
+        font-size: 13px;
+    }
+    #trip hr,
+    #top hr {
+        width: 181px;
+    }
+    #trip .img-box img {
+        height: 230px;
+    }
+    #trip .img-box h4,
+    #trip .img-box2 h4 {
+        bottom: 15px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #trip .img-box2 img {
+        height: 165px;
+    }
+    #trip .img-box2:after {
+        width: 96%;
+    }
+    .features img.feature-img {
+        height: 280px
+    }
+    .features h6 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .features p.text {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    .feature-text {
+        margin: 20px 0;
+    }
+    #top .card .card-header .stats p {
+        color: #FFFFFF;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        margin: 5px;
+    }
+    #top .card .card-header .stats img {
+        margin-top: 0px;
+    }
+    #top .card p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #top .card button {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 10px 15px;
+    }
+    #video {
+        height: 360px;
+    }
+    #video img {
+        width: 70px;
+        margin: 18.8% auto;
+    }
+    footer .footer-content {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    footer .footer-content h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    footer .footer-content ul li a {
+        font-size: 14px;
+        line-height: 20px;
+        ;
+    }
+    footer img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    section.container {
+        margin-top: 50px;
+    }
+    nav.navbar {
+        padding-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .navbar-nav {
+        position: absolute;
+        background: #000000d9;
+        right: 0;
+        width: 45%;
+        padding: 15px;
+    }
+    nav li.nav-item {
+        margin: 0;
+        border-bottom: 1px solid #ffffff;
+    }
+    .banner {
+        margin-top: 45px;
+    }
+    #banner-box h3 {
+        font-size: 35px;
+        line-height: 40px;
+        width: 100%;
+    }
+    #banner-box p {
+        width: 100%;
+    }
+    #search-box div {
+        width: 100%!important;
+        margin-top: 20px;
+    }
+    #search-box p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .banner input {
+        width: 100%;
+        height: 12px;
+    }
+    .banner button {
+        padding: 15px 30px;
+        margin: 10px auto;
+    }
+    header {
+        height: 700px;
+    }
+    #benefits {
+        padding: 0!important;
+        top: -175px;
+    }
+    #benefits .container {
+        padding-top: 2rem;
+    }
+    #benefits h5 {
+        margin-bottom: 50px;
+    }
+    #benefits .sub-title {
+        margin-top: 20px!important;
+    }
+    .bottom-text {
+        margin-top: 10px!important;
+        margin-bottom: 40px!important;
+    }
+    #trip h5,
+    #top h5 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #trip a {
+        font-size: 12px;
+    }
+    #trip a img {
+        width: 20px;
+        margin-left: 3px!important;
+    }
+    #trip .img-box img {
+        height: 230px;
+        width: 100%;
+    }
+    #trip .img-box2 img {
+        width: 100%;
+    }
+    #trip .img-box2:after {
+        width: 97.5%;
+    }
+    .features {
+        margin-top: 0;
+    }
+    .features h6 {
+        font-size: 20px;
+    }
+    .features p.text {
+        font-size: 13px;
+    }
+    #top .card {
+        margin-top: 25px!important;
+    }
+    #top .card .card-header .stats p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 10px 20px;
+    }
+    #top .card p {
+        font-size: 13px;
+    }
+    #video {
+        height: 300px;
+    }
+    #video img {
+        width: 80px;
+        margin: 27% auto;
+    }
+    footer .footer-content {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    footer .footer-content h6 {
+        margin-top: 20px;
+    }
+}
